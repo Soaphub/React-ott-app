@@ -219,7 +219,7 @@ p{
     }
     100%{
         opacity: 1;
-        top: var(--header-length)/2;
+        top: var(--header-length);
     }
 }
 .detail-header{
