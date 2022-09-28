@@ -387,7 +387,7 @@ p{
         --image-per-screen-crew:4;
         --margin-max:2.5rem;
         --margin-mid: 1rem;
-        --margin-min:1rem;
+        --margin-min:0.8rem;
         --header-title-font-size: 3rem;
         --header-title-letter-spacing:1rem;
         --main-title-font-size: 1.3rem;
@@ -412,7 +412,10 @@ p{
     }
     .seacrh-bar{
         display: block;
-        margin: var(--margin-min) var(--margin-max);
+        margin: var(--margin-mid) var(--margin-max);
+    }
+    .button{
+        margin: 0 0.5rem;
     }
     .detail-content .bottom-content .overview-text, 
     .detail-content .bottom-content, .detail-content .cast{
