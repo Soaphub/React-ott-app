@@ -403,6 +403,9 @@ p{
     .navbar-brand{
         margin: 0 0 0px 20px;
     }
+    .home-content .sub-heading{
+        justify-content: space-evenly;
+    }
     .nonav, .no-seacrh-bar, .progress, .movie-slider .scroll{
         display: none;
     }
