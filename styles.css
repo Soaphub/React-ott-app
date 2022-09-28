@@ -110,6 +110,9 @@ p{
 .no-seacrh-bar{
     display: none;
 }
+.button{
+    margin: 0 var(--margin-max);
+}
 .search-icon{
     width: var(--search-icon-size);
 }
@@ -416,8 +419,7 @@ p{
     }
     .detail-content{
         min-width: 100%;
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 0 10px;
     }
     .detail-header{
         margin: 0 var(--margin-mid);
@@ -458,8 +460,7 @@ p{
     }
     .detail-content{
         min-width: 95%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
     }
     .detail-content .cast .text, .detail-content .cast .cast-title{
         padding: 0 calc(1.7 * var(--image-gap));
