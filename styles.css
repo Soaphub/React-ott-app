@@ -64,6 +64,18 @@ p{
     margin: 0px;
 }
 
+#search{
+    padding: 0px;
+}
+
+#favirote{
+    padding: 0px;
+}
+
+#movies{
+    padding:0px;
+}
+
 #Loading-page{
     display: flex;
     backdrop-filter: blur(5px);
@@ -413,12 +425,6 @@ p{
     .seacrh-bar{
         display: block;
         margin: var(--margin-mid) var(--margin-max);
-    }
-    #search{
-        padding: 0px;
-    }
-    #favirote{
-        padding: 0px;
     }
     .detail-content .bottom-content .overview-text, 
     .detail-content .bottom-content, .detail-content .cast{
