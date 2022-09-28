@@ -111,7 +111,7 @@ p{
     display: none;
 }
 .button{
-    margin: 0 var(--margin-mid);
+    margin: 0 var(--margin-max);
 }
 .search-icon{
     width: var(--search-icon-size);
@@ -414,8 +414,11 @@ p{
         display: block;
         margin: var(--margin-mid) var(--margin-max);
     }
-    .button{
-        margin: 0 0.5rem;
+    #search{
+        padding: 0px;
+    }
+    #favirote{
+        padding: 0px;
     }
     .detail-content .bottom-content .overview-text, 
     .detail-content .bottom-content, .detail-content .cast{
@@ -423,7 +426,7 @@ p{
     }
     .detail-content{
         min-width: 100%;
-        padding-right: 0 10px;
+        padding: 0px 10px;
     }
     .detail-header{
         margin: 0 var(--margin-mid);
@@ -464,7 +467,7 @@ p{
     }
     .detail-content{
         min-width: 95%;
-        padding: 0 15px;
+        padding: 0px 15px;
     }
     .detail-content .cast .text, .detail-content .cast .cast-title{
         padding: 0 calc(1.7 * var(--image-gap));
