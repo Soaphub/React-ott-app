@@ -403,15 +403,12 @@ p{
     .navbar-brand{
         margin: 0 0 0px 20px;
     }
-    .home-content .sub-heading{
-        justify-content: space-evenly;
-    }
     .nonav, .no-seacrh-bar, .progress, .movie-slider .scroll{
         display: none;
     }
     .seacrh-bar{
         display: block;
-        margin: 0 40px;
+        margin: var(--margin-min) var(--margin-max);
     }
     .detail-content .bottom-content .overview-text, 
     .detail-content .bottom-content, .detail-content .cast{
