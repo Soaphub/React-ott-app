@@ -109,7 +109,6 @@ p{
 }
 .no-seacrh-bar{
     display: none;
-    transition: 0.5s ease-in;
 }
 .search-icon{
     width: var(--search-icon-size);
@@ -167,6 +166,7 @@ p{
 /* Favirote DIV*/
 .fav-div{
     cursor: pointer;
+    z-index: 1;
 }
 .movie-posters .fav-div{
     display: flex;
@@ -201,7 +201,7 @@ p{
     margin: 0 auto;
     padding: calc(var(--margin-varrying-in-details) /2.7) 0;
     background-color: #0F0F0F;
-    animation: popup 0.4s ease-in forwards;
+    animation: popup 0.5s ease-in forwards;
 }
 @keyframes popup{
     0%{ 
@@ -212,10 +212,10 @@ p{
         opacity: 0.25;
     }
     75%{
-        visibility:visible;
         opacity: 0.50;
     }
     100%{
+        visibility:visible;
         opacity: 1;
     }
 }
