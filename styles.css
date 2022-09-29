@@ -417,22 +417,21 @@ p{
         --footer-icon-size: 15px;
     }
     .navbar-brand{
-        margin: 0 0 0px 20px;
+        margin: var(--margin-mid)  var(--margin-min);
     }
     .nonav, .no-seacrh-bar, .progress, .movie-slider .scroll{
         display: none;
     }
     .seacrh-bar{
         display: block;
-        margin: var(--margin-mid) var(--margin-max);
+        margin: var(--margin-max) var(--margin-max);
     }
     .detail-content .bottom-content .overview-text, 
-    .detail-content .bottom-content, .detail-content .cast{
+     .detail-content .cast{
         padding: 0px;
     }
     .detail-content{
         min-width: 100%;
-        padding: 0px 10px;
     }
     .detail-header{
         margin: 0 var(--margin-mid);
@@ -473,7 +472,6 @@ p{
     }
     .detail-content{
         min-width: 95%;
-        padding: 0px 15px;
     }
     .detail-content .cast .text, .detail-content .cast .cast-title{
         padding: 0 calc(1.7 * var(--image-gap));
