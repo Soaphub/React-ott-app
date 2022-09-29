@@ -494,7 +494,7 @@ p{
 @media (min-width:1000px) and (max-width:1399.98px){
     :root{
         --silder-size: 3rem;
-        --image-gap:0.25rem;
+        --image-gap:0.37rem;
         --image-per-screen:5;
         --image-per-screen-crew:6;
         --margin-max:3.7rem;
