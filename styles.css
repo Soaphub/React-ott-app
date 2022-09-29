@@ -123,11 +123,12 @@ p{
     display: none;
 }
 .button{
+    display: flex;
+    align-content: center;
     margin: 0 var(--margin-max);
 }
 .search-icon{
     width: var(--search-icon-size);
-    align-self: center;
 }
 
 
@@ -380,6 +381,7 @@ p{
 .footer{
     text-align: center;
     margin: var(--margin-max) 0 var(--margin-mid);
+    padding: 0px;
 }
 .footer-icon{
     margin: var(--margin-mid);
@@ -413,7 +415,7 @@ p{
         --search-icon-size: 15px;
         --detail-production-posters-size:30px;
         --detail-cast-posters-size: 40px;
-        --search-bar-width: 250px;
+        --search-bar-width: 300px;
         --close-icon: 15px;
         --footer-icon-size: 15px;
     }
@@ -422,6 +424,9 @@ p{
     }
     .nonav, .no-seacrh-bar, .progress, .movie-slider .scroll{
         display: none;
+    }
+    .button{
+        margin: 0 var(--margin-min);
     }
     .seacrh-bar{
         display: block;
