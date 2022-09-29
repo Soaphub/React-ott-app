@@ -127,6 +127,7 @@ p{
 }
 .search-icon{
     width: var(--search-icon-size);
+    align-self: center;
 }
 
 
@@ -424,7 +425,7 @@ p{
     }
     .seacrh-bar{
         display: block;
-        margin: var(--margin-max) var(--margin-max);
+        margin: var(--margin-mid) var(--margin-mid);
     }
     .detail-content .bottom-content .overview-text, 
      .detail-content .cast{
