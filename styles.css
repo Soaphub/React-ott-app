@@ -221,7 +221,7 @@ p{
     margin: 0 auto;
     padding: calc(var(--margin-varrying-in-details) /2.6) 0;
     background-color: #0F0F0F;
-    animation: popup 0.5s ease-in-out;
+    animation: popup 0.8s ease-in-out;
 }
 @keyframes popup{
     0%{ 
