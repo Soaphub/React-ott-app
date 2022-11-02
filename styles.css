@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 :root{
     --silder-size: 4rem;
     --image-gap:0.50rem;
@@ -217,7 +220,7 @@ p{
     box-shadow: 5px 5px black;
     margin: 0 auto;
     background-color: #0F0F0F;
-    animation: popup 0.5s ease-in forwards;
+    animation: popup 0.3s ease-in forwards;
 }
 @keyframes popup{
     0%{ 
