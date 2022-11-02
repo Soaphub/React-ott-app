@@ -219,25 +219,21 @@ p{
     max-width: 80%;
     box-shadow: 5px 5px black;
     margin: 0 auto;
+    padding: calc(var(--margin-varrying-in-details) /2.6) 0;
     background-color: #0F0F0F;
-    animation: popup 0.5s ease-in forwards;
+    animation: popup 0.5s ease-in-out;
 }
 @keyframes popup{
     0%{ 
-        visibility: none;
         opacity: 0; 
     }
     50%{
-        opacity: 0.3;
-        padding: calc(var(--margin-varrying-in-details) /4) 0;
+        opacity: 0.2;
     }
     75%{
         opacity: 0.6;
-        padding: calc(var(--margin-varrying-in-details) /3) 0;
     }
     100%{
-        visibility:visible;
-        padding: calc(var(--margin-varrying-in-details) /2.6) 0;
         opacity: 1;
     }
 }
