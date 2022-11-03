@@ -34,7 +34,7 @@ html {
 ::-webkit-scrollbar{
     display: none;
 }
-.container-fluid{
+.container-fluid, #search, #favirote, #movies{
     padding: 0px;
 }
 body{
@@ -67,24 +67,13 @@ p{
     margin: 0px;
 }
 
-#search{
-    padding: 0px;
-}
-
-#favirote{
-    padding: 0px;
-}
-
-#movies{
-    padding:0px;
-}
-
 #Loading-page{
     display: flex;
     backdrop-filter: blur(5px);
     align-content: center;
     justify-content: center;
 }
+
 /* Navbar */
 .navbar{
     margin: 0px 0px var(--margin-max);
@@ -289,7 +278,7 @@ p{
 }
 .detail-content .movie-lists{
     width: 100%;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 .detail-content .bottom-content .movie-slider{
     padding: 0px;
@@ -309,10 +298,10 @@ p{
 
 
 /* Similar Movie */
-.home-content.collection{
+/* .home-content.collection{
     z-index: 1;
     margin-top: calc(var(--margin-max) + calc(var(--margin-varrying-in-collection) * 1.25));
-}
+} */
 
 
 /* Progress Bar */
@@ -451,9 +440,9 @@ p{
     .movie-posters:hover, .scroll .pointer:hover{
         transform:none;
     }
-    .home-content.collection{
+    /* .home-content.collection{
         margin-top: calc(var(--margin-max) + var(--margin-varrying-in-collection) * 1.1);
-    } 
+    }  */
 }
 
 
@@ -481,9 +470,9 @@ p{
     .detail-content .cast .text, .detail-content .cast .cast-title{
         padding: 0 calc(1.7 * var(--image-gap));
     }
-    .home-content.collection{
+    /* .home-content.collection{
         margin-top: calc(var(--margin-max) + calc(var(--margin-varrying-in-collection) * 1.13));
-    } 
+    }  */
     .seacrh-bar{
         margin: 0 50px;
     }
@@ -524,9 +513,9 @@ p{
     .scroll .pointer:hover{
         transform: scale(1.06);
     } 
-    .home-content.collection{
+    /* .home-content.collection{
         margin-top: calc(var(--margin-max) + calc(var(--margin-varrying-in-collection) * 1.17));
-    }  
+    }   */
 }
 
 
@@ -537,7 +526,7 @@ p{
     .detail-content{
         min-width: 85%;
     }
-    .home-content.collection{
+    /* .home-content.collection{
         margin-top: calc(var(--margin-max) + (var(--margin-varrying-in-collection) * 1.25));
-    }  
+    }   */
 }
