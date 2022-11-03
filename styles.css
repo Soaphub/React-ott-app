@@ -187,9 +187,8 @@ p{
     opacity: 0.5;
     width: var(--footer-icon-size);
     margin: var(--margin-min);
-    fill: gray;
 }
-.fav-icon:hover, .fav-icon:visited{
+.fav-icon:hover, .fav-icon:active, .fav-icon:visited{
     opacity: 1;
     fill: red;
     transition: 0.3s ease-in-out;
