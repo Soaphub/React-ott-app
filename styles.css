@@ -189,7 +189,7 @@ p{
     margin: var(--margin-min);
     fill: gray;
 }
-.fav-icon:visited, .fav-icon:hover{
+.fav-icon:hover, .fav-icon:visited{
     opacity: 1;
     fill: red;
     transition: 0.3s ease-in-out;
